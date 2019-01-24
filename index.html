@@ -8,7 +8,7 @@
     <meta name="blog-de-musica" content="Frameworks-CSS">
     <meta name="keywords" content="rock,jazz,bandas,musica,soul-music,newjazz,newsoul">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Jazz el Blog Musical</title>
 
 
@@ -18,77 +18,97 @@
 
     <header class="row">
       <div class="logo col-sm-2" title="logo Jazz El Blog Musical">
-       <img src="img/logo pagina.jpg" alt="logo-jazz" width="100%">
+       <img class="rounded-circle" src="img/logo pagina.jpg" alt="logo-jazz" width="100%">
       </div>
-      <div class="col-sm-7">
-        <p> <h1 id="tituloprincipal">Jazz el Blog Musical</h1> </p>
+      <div class="col-sm-7 text-center">
+        <p > <h1 id="tituloprincipal" class="justify-center">Jazz el Blog Musical</h1> </p>
 
       </div>
-      <div class="col-sm-3 ">
-        <div class="navbar-expand-sm">
-          <ul class="justify-content-end navbar-nav">
-            <li class="nav-item"> <a href="#"> <img src="img/rrss/001-youtube.png" alt="logo-youtube" width="50%"> </a> </li>
-            <li class="nav-item"> <a href="#"> <img src="img/rrss/013-soundcloud.png" alt="logo-soundcloud" width="50%"> </a> </li>
-            <li class="nav-item"> <a href="#"> <img src="img/rrss/029-instagram.png" alt="logo-instagram" width="40%"> </a> </li>
-            <li class="nav-item"> <a href="#"> <img src="img/rrss/036-facebook.png" alt="logo-facebook" width="40%"> </a> </li>
-          </ul>
+      <div class="col-sm-3 align-self-end">
+        <div class="">
+
+            <a href="#"> <img src="img/rrss/001-youtube.png" alt="logo-youtube" width="20%" title="Nuestro canal en YouTube"> </a>
+            <a href="#"> <img src="img/rrss/013-soundcloud.png" alt="logo-soundcloud" width="20%"> </a>
+            <a href="#"> <img src="img/rrss/029-instagram.png" alt="logo-instagram" width="20%"> </a>
+            <a href="#"> <img src="img/rrss/036-facebook.png" alt="logo-facebook" width="20%"> </a>
+
         </div>
       </div>
     </header>
 
 
-    <nav class="navbar-expand">
-      <ul class="justify-content-center navbar-nav">
-        <li class="nav-item"></li>
-          <a href="#">link 1</a>
-        <li class="nav-item"></li>
-          <a href="#">link 2</a>
-        <li class="nav-item"></li>
-          <a href="#">link 3</a>
-        <li class="nav-item"></li>
-          <a href="#">link 4</a>
-        <li class="nav-item"></li>
-          <a href="#">link 5</a>
-        <li class="nav-item"></li>
-          <a href="#">link 6</a>
-
+    <nav class="navbar navbar-expand bg-dark">
+      <ul class="navbar-nav col-sm-12 d-flex justify-content-around">
+        <li class="nav-item active"><a href="#">Quienes Somos</a></li>
+        <li class="nav-item"><a href="#">Discos</a></li>
+        <li class="nav-item"><a href="#">Noticias</a></li>
+        <li class="nav-item"><a href="#">Videos</a></li>
+        <li class="nav-item"><a href="#">Bandas</a></li>
+        <li class="nav-item"><a href="#">Contacto</a></li>
       </ul>
     </nav>
-    <div class="row">
-      <section class="col-md-8">
-        <article class="row">
-          <div class="col-sm-8">
+    <div class="row p-4">
+      <section class="col-sm-9 jumbotron justify-content-around ">
+
+<!-- NOTE: articulo 1 del blog -->
+        <article class="row bg-secondary">
+          <div class="col-sm-8 text-justify pt-2">
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor... </p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 pt-2">
            <img src="img/electrodelux.png" alt="electrodelux" width="100%">
           </div>
-          <input class="col-sm-8" type="text" name="comentario" value=""> comentarios
         </article>
-        <article class="row">
-          <div class="col-sm-4">
-            <img src="img/ego-wrappin.png" alt="ego-wrappin" width="100%">
-          </div>
-          <div class="col-sm-8">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor... </p>
-          </div>
-          <input class="col-sm-8" type="text" name="comentario" value=""> Comentarios
-        </article>
+        <div class="row">
+            <div class="input col-sm-12 p-1">
+              <input class="col-sm-8" type="text" name="comentario" value=""> comentarios
+            </div>
+
+        </div>
+
+<!-- NOTE: articulo 2 del blog -->
+        <div class="p-2">
+          <article class="row bg-secondary p-2">
+            <div class="col-sm-4">
+              <img src="img/ego-wrappin.png" alt="ego-wrappin" width="100%">
+            </div>
+            <div class="col-sm-8 text-justify">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor... </p>
+            </div>
+            <input class="col-sm-8" type="text" name="comentario" value=""> Comentarios
+          </article>
+        </div>
+
+
       </section>
-      <aside class="col-sm-4 ">
+      <aside class="col-sm-3">
         <input class="col-sm-7" type="search" name="" value="">
         <button class="col-sm-4" type="button" name="Buscar">Buscar</button>
-        <div class="d-flex flex-column">
-          <button type="button" class="btn btn-primary btn-block">busqueda</button>
-          <button type="button" class="btn btn-primary btn-block">busqueda</button>
-          <button type="button" class="btn btn-primary btn-block">busqueda</button>
-          <button type="button" class="btn btn-primary btn-block">busqueda</button>
-          <button type="button" class="btn btn-primary btn-block">busqueda</button>
-          <button type="button" class="btn btn-primary btn-block">busqueda</button>
-          <button type="button" class="btn btn-primary btn-block">busqueda</button>
-          <button type="button" class="btn btn-primary btn-block">busqueda</button>
+        <div class="d-flex flex-column justify-content-center text-center">
+          <a class="mt-2" href="#">dhff ddfgdf</a>
+          <a class="mt-2" href="#">Lorem</a>
+          <a class="mt-2" href="#">fgfgdfg</a>
+          <a class="mt-2" href="#">dfgdfgdfg</a>
+          <a class="mt-2" href="#">dfgdfgdfg</a>
+          <a class="mt-2" href="#">dfgd dfgdfgdfg</a>
+          <a class="mt-2" href="#">dfgdfg dfgdfg</a>
+          <a class="mt-2" href="#">dfgdfgdffffg bfmjkhjk</a>
+          <a class="mt-2" href="#">dfgh dfhhjku</a>
+          <a class="mt-2" href="#">dfgdhj  gtyjty</a>
+          <a class="mt-2" href="#">dghgh sdgdfg</a>
+          <a class="mt-2" href="#">dfgdf dfhgdfh</a>
+          <a class="mt-2" href="#">df dfdgf dfgdgf</a>
+          <a class="mt-2" href="#">dfgdfgdfg</a>
+          <a class="mt-2" href="#">dfgdfgdffff f</a>
+          <a class="mt-2" href="#">fgdfg</a>
+          <a class="mt-2" href="#">dfgdfwer</a>
         </div>
     </aside>
     </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
   </body>
 </html>

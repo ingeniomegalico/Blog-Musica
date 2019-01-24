@@ -3,6 +3,32 @@
 }
 
 body {
-  color: black;
-  
+  color: rgb(255, 255, 255);
+  background-color: rgb(139, 63, 21);
+}
+
+aside section {
+  padding: 1%;
+
+}
+
+article p,img {
+  color: white;
+  background-color: rgb(139, 63, 21);
+
+}
+
+article p {
+  padding: 8px;
+}
+
+article {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px
+}
+
+.input {
+  background-color: rgb(147, 147, 147);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
