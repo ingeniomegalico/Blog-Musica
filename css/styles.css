@@ -32,3 +32,15 @@ article {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: rgb(173, 173, 173);
+}
+
+.container a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
