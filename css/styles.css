@@ -4,38 +4,22 @@
 
 body {
   color: rgb(255, 255, 255);
-  background-color: rgb(139, 63, 21);
-}
-
-aside section {
-  padding: 1%;
-
-}
-
-article p,img {
-  color: white;
-  background-color: rgb(139, 63, 21);
-
-}
-
-article p {
-  padding: 8px;
+  background-color: rgb(133, 13, 3);
 }
 
 article {
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px
+  color: white;
+  background-color: rgb(236, 132, 14);
+}
+
+.articulo {
+  background-color: rgb(235, 143, 38);
 }
 
 .input {
-  background-color: rgb(147, 147, 147);
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
+  background-color: rgb(149, 9, 38);
 }
 
-a:link {
-  color: white;
-}
 
 a:visited {
   color: rgb(173, 173, 173);
