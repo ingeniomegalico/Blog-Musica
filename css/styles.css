@@ -28,3 +28,7 @@ a:visited {
 .container a:hover {
   color: rgba(0, 0, 0, 0.5);
 }
+
+li:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
